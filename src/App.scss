@@ -1,0 +1,51 @@
+.App-topContainer {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 23px 26px 0 26px;
+
+    &_name {
+        font-size: 16px;
+        font-weight: 400;
+        margin: 0px;
+    }
+
+    &-right {
+        display: flex;
+        align-items: center;
+        width: 72px;
+        justify-content: space-between;
+        z-index: 1000;
+
+        &_leftContainer,
+        &_rightContainer {
+            width: 32px;
+            height: 19px;
+            text-align: center;
+        }
+
+        &_leftContainer {
+            background-color: #EA6A6A;
+
+            h4 {
+                cursor: pointer;
+                font-size: 16px;
+                font-weight: 400;
+                margin: 0px;
+            }
+        }
+
+        &_rightContainer {
+            background-color: #ffffff;
+
+            h4 {
+                cursor: pointer;
+                font-size: 16px;
+                font-weight: 400;
+                margin: 0px;
+                color: black;
+            }
+        }
+    }
+}

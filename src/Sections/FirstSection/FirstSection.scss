@@ -1,0 +1,156 @@
+.FirstSection {
+    font-family: 'Bebas Neue', cursive;
+    height: 100vh;
+    color: white;
+
+    &-downContainer {
+        width: 100%;
+        margin-top: -42px;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        &_textOne,
+        &_textTwo,
+        &_textThree,
+        &_textFour {
+            font-weight: 400;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        &_textOne {
+            font-size: 48px;
+            white-space: nowrap;
+            padding-top: 59px;
+
+            &-colored {
+                color: #EA6A6A;
+            }
+        }
+
+        &_textTwo {
+            font-size: 48px;
+        }
+
+        &_textThree {
+            font-size: 128px;
+            margin-top: -45px;
+        }
+
+        &_line {
+            width: 301px;
+            margin-top: -30px;
+        }
+
+        &_textFour {
+            font-size: 32px;
+            margin-top: -5px;
+            margin-bottom: 35px;
+        }
+
+        &-container {
+            &_image {
+                max-width: 544px;
+                margin: 0 auto;
+                height: 400px;
+                background-image: url("../../images/HollowKnight.gif");
+                background-size: cover;
+                background-position: center;
+            }
+
+            &_dialogue {
+                width: fit-content;
+                min-width: 28px;
+                height: 26px;
+                border: 1px solid #FFFFFF;
+                display: flex;
+                margin: 0 auto;
+                position: relative;
+                top: 285px;
+                background-color: #0E1012;
+                white-space: nowrap;
+
+                p {
+                    font-size: 24px;
+                    color: #7F7F7F;
+                    font-family: 'VT323', monospace;
+                    margin: 0;
+                    margin-left: 4px;
+                    text-align: left;
+                }
+
+                img {
+                    width: 15px;
+                    height: 5px;
+                    margin-left: 1px;
+                    margin-bottom: 5.8px;
+                    align-self: end;
+                    margin-right: 6px;
+                }
+            }
+        }
+    }
+
+    &_downArrow {
+        width: 200px;
+        position: absolute;
+        left: calc(50% - 10px);
+        width: 33px;
+        height: 25px;
+        bottom: 27px;
+        cursor: pointer
+    }
+
+    @media (max-width: 500px) {
+
+        &-downContainer {
+
+            &_textOne {
+                font-size: 36px;
+            }
+
+            &_textTwo {
+                font-size: 32px;
+                margin-top: 15px;
+            }
+
+            &_textThree {
+                font-size: 116px;
+                margin-top: -35px;
+                margin-bottom: 5px;
+            }
+
+            &_textFour {
+                font-size: 20px;
+                margin-top: 10px;
+            }
+        }
+    }
+
+    @media (max-height: 800px) {
+
+        &-downContainer {
+            &_textOne {
+                margin-top: 90px;
+            }
+
+            &_textTwo {
+                margin-bottom: 5px;
+            }
+
+            &_textFour {
+                margin-bottom: 0px;
+            }
+
+            &-container {
+                &_image {
+                    margin-top: -79px;
+                }
+            }
+        }
+    }
+
+}

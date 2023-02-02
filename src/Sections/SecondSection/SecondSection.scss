@@ -1,0 +1,20 @@
+.SecondSection {
+    height: 100vh;
+
+    &-title {
+        margin-top: 36px;
+        color: white;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 40px;
+        font-weight: 400;
+        text-shadow: 3px 0px 0px #EA6A6A;
+        text-align: center;
+    }
+
+    &-leftContainer {
+        width: 415px;
+        height: 662px;
+        background: #0E1012;
+        border: 1px solid #FFFFFF;
+    }
+}
