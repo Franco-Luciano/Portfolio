@@ -1,12 +1,217 @@
 {
     "Franco": {
         "description": "Hola! Gracias por interesarte en mi perfil profesional :)Mi nombre es Franco Carlomagno y soy un argentino de 22 años que vive en España desde hace aproximadamente dos años. He tenido la posibilidad de vivir en otros países de Europa en dónde aprendí muchísimas cosas mucho y he crecido tanto personal como profesionalmente.Mis pasiones son fundamentalmente dos, los videojuegos y el desarrollo de aplicaciones. Aunque curiosamente no me gustaría dedicarme al desarrollo de videojuegos, si que me gustaría dedicarme a todo lo que rodea a la presentación de dichos proyectos en la web y las aplicaciones que pueden llegar a desarrollarse para complementarlos.Por lo que, gracias a que dedico mi tiempo libre a aquello con lo que me gano la vida, mis habilidades en el sector de desarrollo se ven en crecimiento constante, pero no bajo teoría o esfuerzo de mejorar laboralmente, sino bajo práctica y genuina curiosidad.Trabajo como desarrollador front-end, haciendo uso de diferentes tecnologías y lenguajes que facilitan dicha tarea y que además entregan un producto de mejor calidad al cliente final.Hola! Gracias por interesarte en mi perfil profesional :)Mi nombre es Franco Carlomagno y soy un argentino de 22 años que vive en España desde hace aproximadamente dos años. He tenido la posibilidad de vivir en otros países de Europa en dónde aprendí muchísimas cosas mucho y he crecido tanto personal como profesionalmente.Mis pasiones son fundamentalmente dos, los videojuegos y el desarrollo de aplicaciones. Aunque curiosamente no me gustaría dedicarme al desarrollo de videojuegos, si que me gustaría dedicarme a todo lo que rodea a la presentación de dichos proyectos en la web y las aplicaciones que pueden llegar a desarrollarse para complementarlos.Por lo que, gracias a que dedico mi tiempo libre a aquello con lo que me gano la vida, mis habilidades en el sector de desarrollo se ven en crecimiento constante, pero no bajo teoría o esfuerzo de mejorar laboralmente, sino bajo práctica y genuina curiosidad.Trabajo como desarrollador front-end, haciendo uso de diferentes tecnologías y lenguajes que facilitan dicha tarea y que además entregan un producto de mejor calidad al cliente final.Hola! Gracias por interesarte en mi perfil profesional :)Mi nombre es Franco Carlomagno y soy un argentino de 22 años que vive en España desde hace aproximadamente dos años. He tenido la posibilidad de vivir en otros países de Europa en dónde aprendí muchísimas cosas mucho y he crecido tanto personal como profesionalmente.Mis pasiones son fundamentalmente dos, los videojuegos y el desarrollo de aplicaciones. Aunque curiosamente no me gustaría dedicarme al desarrollo de videojuegos, si que me gustaría dedicarme a todo lo que rodea a la presentación de dichos proyectos en la web y las aplicaciones que pueden llegar a desarrollarse para complementarlos.Por lo que, gracias a que dedico mi tiempo libre a aquello con lo que me gano la vida, mis habilidades en el sector de desarrollo se ven en crecimiento constante, pero no bajo teoría o esfuerzo de mejorar laboralmente, sino bajo práctica y genuina curiosidad.Trabajo como desarrollador front-end, haciendo uso de diferentes tecnologías y lenguajes que facilitan dicha tarea y que además entregan un producto de mejor calidad al cliente final.Hola! Gracias por interesarte en mi perfil profesional :)Mi nombre es Franco Carlomagno y soy un argentino de 22 años que vive en España desde hace aproximadamente dos años. He tenido la posibilidad de vivir en otros países de Europa en dónde aprendí muchísimas cosas mucho y he crecido tanto personal como profesionalmente.Mis pasiones son fundamentalmente dos, los videojuegos y el desarrollo de aplicaciones. Aunque curiosamente no me gustaría dedicarme al desarrollo de videojuegos, si que me gustaría dedicarme a todo lo que rodea a la presentación de dichos proyectos en la web y las aplicaciones que pueden llegar a desarrollarse para complementarlos.Por lo que, gracias a que dedico mi tiempo libre a aquello con lo que me gano la vida, mis habilidades en el sector de desarrollo se ven en crecimiento constante, pero no bajo teoría o esfuerzo de mejorar laboralmente, sino bajo práctica y genuina curiosidad.Trabajo como desarrollador front-end, haciendo uso de diferentes tecnologías y lenguajes que facilitan dicha tarea y que además entregan un producto de mejor calidad al cliente final.",
-        "reproductor": {
-            "1": {
-                "title": "Oblivion",
-                "author": "Astor Piazzolla",
-                "image": "../../images/Oblivion.png"
-            }
+        "tools": {
+            "lenguages": [
+                {
+                    "1": {
+                        "name": "HTML",
+                        "image": {
+                            "path": "htmlLogo",
+                            "width": "61px",
+                            "height": "69px"
+                        },
+                        "fontSize": "36px",
+                        "type": "lenguage",
+                        "color": "#E34F26"
+                    }
+                },
+                {
+                    "2": {
+                        "name": "PYTHON",
+                        "image": {
+                            "path": "pythonLogo",
+                            "width": "69px",
+                            "height": "69px"
+                        },
+                        "fontSize": "24px",
+                        "type": "lenguage",
+                        "color": "#DB9B00"
+                    }
+                },
+                {
+                    "3": {
+                        "name": "CSS",
+                        "image": {
+                            "path": "cssLogo",
+                            "width": "62px",
+                            "height": "62px"
+                        },
+                        "fontSize": "36px",
+                        "type": "lenguage",
+                        "color": "#2965F1"
+                    }
+                },
+                {
+                    "4": {
+                        "name": "REACT",
+                        "image": {
+                            "path": "reactLogo",
+                            "width": "68px",
+                            "height": "59px"
+                        },
+                        "fontSize": "32px",
+                        "type": "lenguage",
+                        "color": "#3E5385"
+                    }
+                },
+                {
+                    "5": {
+                        "name": "JAVASCRIPT",
+                        "image": {
+                            "path": "javascriptLogo",
+                            "width": "55px",
+                            "height": "55px"
+                        },
+                        "fontSize": "16px",
+                        "type": "lenguage",
+                        "color": "#DAB700"
+                    }
+                },
+                {
+                    "6": {
+                        "name": "JSON",
+                        "image": {
+                            "path": "jsonLogo",
+                            "width": "55px",
+                            "height": "55px"
+                        },
+                        "fontSize": "32px",
+                        "type": "lenguage",
+                        "color": "#636363"
+                    }
+                },
+                {
+                    "7": {
+                        "name": "VEGAS",
+                        "image": {
+                            "path": "vegasLogo",
+                            "width": "55px",
+                            "height": "55px"
+                        },
+                        "fontSize": "24px",
+                        "type": "lenguage",
+                        "color": "#003E52"
+                    }
+                },
+                {
+                    "8": {
+                        "name": "SASS",
+                        "image": {
+                            "path": "sassLogo",
+                            "width": "55px",
+                            "height": "55px"
+                        },
+                        "fontSize": "32px",
+                        "type": "lenguage",
+                        "color": "#793055"
+                    }
+                },
+                {
+                    "9": {
+                        "name": "GITHUB",
+                        "image": {
+                            "path": "githubLogo",
+                            "width": "55px",
+                            "height": "55px"
+                        },
+                        "fontSize": "24px",
+                        "type": "lenguage",
+                        "color": "#2A937A"
+                    }
+                },
+                {
+                    "10": {
+                        "name": "GATSBY",
+                        "image": {
+                            "path": "gatsbyLogo",
+                            "width": "56px",
+                            "height": "56px"
+                        },
+                        "fontSize": "24px",
+                        "type": "lenguage",
+                        "color": "#48365B"
+                    }
+                },
+                {
+                    "11": {
+                        "name": "FIGMA",
+                        "image": {
+                            "path": "figmaLogo",
+                            "width": "37px",
+                            "height": "56px"
+                        },
+                        "fontSize": "32px",
+                        "type": "lenguage",
+                        "color": "#CA6257"
+                    }
+                },
+                {
+                    "12": {
+                        "name": "NETLIFY",
+                        "image": {
+                            "path": "netlifyLogo",
+                            "width": "56px",
+                            "height": "56px"
+                        },
+                        "fontSize": "20px",
+                        "type": "lenguage",
+                        "color": "#32837B"
+                    }
+                },
+                {
+                    "13": {
+                        "name": "VTEX",
+                        "image": {
+                            "path": "vtexLogo",
+                            "width": "56px",
+                            "height": "56px"
+                        },
+                        "fontSize": "36px",
+                        "type": "lenguage",
+                        "color": "#68293E"
+                    }
+                },
+                {
+                    "14": {
+                        "name": "PHOTOSHOP",
+                        "image": {
+                            "path": "photoshopLogo",
+                            "width": "57px",
+                            "height": "55px"
+                        },
+                        "fontSize": "16px",
+                        "type": "lenguage",
+                        "color": "#001D26"
+                    }
+                },
+                {
+                    "15": {
+                        "name": "ARCAPLANET",
+                        "image": {
+                            "path": "arcaplanetLogo",
+                            "width": "96px",
+                            "height": "96px"
+                        },
+                        "fontSize": "28px",
+                        "type": "company",
+                        "color": "#FFFFFF"
+                    }
+                },
+                {
+                    "16": {
+                        "name": "ACCT",
+                        "image": {
+                            "path": "acctLogo",
+                            "width": "96px",
+                            "height": "96px"
+                        },
+                        "fontSize": "28px",
+                        "type": "company",
+                        "color": "#FFFFFF"
+                    }
+                }
+            ]
         }
     }
 }

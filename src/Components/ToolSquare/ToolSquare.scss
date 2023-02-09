@@ -1,0 +1,71 @@
+.ToolSquare {
+    &-container {
+        width: 77px;
+        height: 110px;
+        border: 6px solid #FFFFFF;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 9px;
+        margin-bottom: 35px;
+        transform: scale(1);
+
+        &:hover {
+            border: 6px solid #EA6A6A;
+            transform: scale(1.1);
+            transition: 0.1s;
+        }
+
+        &_image {
+            margin-top: 5px;
+            margin-bottom: 10px;
+            margin: 0 auto;
+            margin-top: 12px;
+        }
+
+        &_text {
+            font-family: "VT323";
+            color: white;
+            margin: 0px;
+            line-height: 0px;
+            margin-bottom: 16px;
+        }
+    }
+
+    &-containerBig {
+        width: 138px;
+        height: 169px;
+        border: 1px solid #000000;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 35px;
+        transform: scale(1);
+        box-shadow: 0px 0px 0px 6px #ffffff;
+        margin-left: 20px;
+        margin-right: 20px;
+
+        &:hover {
+            box-shadow: 0px 0px 0px 6px #EA6A6A;
+            transform: scale(1.1);
+            transition: 0.1s;
+        }
+
+        &_image {
+            margin-top: 5px;
+            margin-bottom: 10px;
+            margin: 0 auto;
+            margin-top: 12px;
+        }
+
+        &_text {
+            font-family: "VT323";
+            color: rgb(0, 0, 0);
+            margin: 0px;
+            line-height: 0px;
+            margin-bottom: 17px;
+        }
+    }
+}

@@ -2,6 +2,7 @@ import './App.scss';
 import React from 'react';
 import FirstSection from './Sections/FirstSection/FirstSection';
 import SecondSection from './Sections/SecondSection/SecondSection';
+import ThirdSection from './Sections/ThirdSection/ThirdSection';
 function App() {
     const [lenguage, setLenguage] = React.useState(false)
     return (
@@ -13,6 +14,7 @@ function App() {
             </div>
         </div><FirstSection lenguage={lenguage} />
             <SecondSection />
+            <ThirdSection />
         </>
     );
 }

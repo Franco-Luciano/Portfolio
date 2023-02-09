@@ -1,0 +1,59 @@
+.ThirdSection {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &-title {
+        margin-top: 40px;
+        color: white;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 40px;
+        font-weight: 400;
+        text-shadow: 3px 0px 0px #EA6A6A;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    &-middleContainer {
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 686px;
+        justify-content: center;
+    }
+
+    &-middleDown {
+        width: 100%;
+    }
+
+    &_downArrow {
+        position: relative;
+        left: calc(50% - 10px);
+        width: 33px;
+        height: 25px;
+        cursor: pointer;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+
+    @media (max-width: 400px) {
+        @media (max-height: 750px) {
+            margin-top: 50px;
+
+            &-title {
+                margin-bottom: 40px;
+            }
+        }
+    }
+
+    @media (max-width: 400px) {
+        @media (max-height: 700px) {
+            margin-top: 200px;
+
+            &-title {
+                margin-bottom: 40px;
+            }
+        }
+    }
+}

@@ -1,5 +1,5 @@
 import './SecondSection.scss';
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import data from "../../information.json"
 import DownArrow from "../../images/DownArrow.gif"
 import ProfilePicture from "../../images/ProfilePicture.png"
