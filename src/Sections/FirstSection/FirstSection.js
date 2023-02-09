@@ -5,7 +5,7 @@ import React from 'react';
 function FirstSection({ lenguage }) {
     return (
         <section className="FirstSection">
-            {lenguage ? <div className='FirstSection-downContainer'>
+            {lenguage ? <><span className="FirstSection_top" /><div className='FirstSection-downContainer'>
                 <h2 className='FirstSection-downContainer_textOne'>Hi! this is my<span className='FirstSection-downContainer_textOne-colored'> checkpoint</span></h2>
                 <h2 className='FirstSection-downContainer_textTwo'>my name is</h2>
                 <h2 className='FirstSection-downContainer_textThree'>franco</h2>
@@ -17,7 +17,7 @@ function FirstSection({ lenguage }) {
                         <img src={DotsTyping} />
                     </div>
                 </div>
-            </div> : <div className='FirstSection-downContainer'>
+            </div></> : <><span className="FirstSection_top" /><div className='FirstSection-downContainer'>
                 <h2 className='FirstSection-downContainer_textOne'>Hola! este es mi<span className='FirstSection-downContainer_textOne-colored'> checkpoint</span></h2>
                 <h2 className='FirstSection-downContainer_textTwo'>mi nombre es</h2>
                 <h2 className='FirstSection-downContainer_textThree'>franco</h2>
@@ -29,7 +29,7 @@ function FirstSection({ lenguage }) {
                         <img src={DotsTyping} />
                     </div>
                 </div>
-            </div>
+            </div></>
             }
             <img className="FirstSection_downArrow" src={DownArrow} />
         </section>

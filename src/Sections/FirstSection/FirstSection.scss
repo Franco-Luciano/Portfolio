@@ -1,16 +1,15 @@
 .FirstSection {
     font-family: 'Bebas Neue', cursive;
-    height: 100vh;
+    height: 95vh;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
     &-downContainer {
         width: 100%;
         margin-top: -42px;
         text-align: center;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
 
         &_textOne,
         &_textTwo,
@@ -95,13 +94,9 @@
     }
 
     &_downArrow {
-        width: 200px;
-        position: absolute;
-        left: calc(50% - 10px);
         width: 33px;
         height: 25px;
-        bottom: 27px;
-        cursor: pointer
+        margin: 0 auto;
     }
 
     @media (max-width: 500px) {

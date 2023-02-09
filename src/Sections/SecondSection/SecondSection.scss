@@ -1,20 +1,271 @@
 .SecondSection {
     height: 100vh;
+    font-family: "VT323";
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
     &-title {
-        margin-top: 36px;
+        margin-top: 40px;
         color: white;
         font-family: 'Bebas Neue', cursive;
         font-size: 40px;
         font-weight: 400;
         text-shadow: 3px 0px 0px #EA6A6A;
         text-align: center;
+        margin-bottom: 0px;
     }
 
-    &-leftContainer {
-        width: 415px;
-        height: 662px;
-        background: #0E1012;
-        border: 1px solid #FFFFFF;
+    &_downArrow {
+        position: relative;
+        left: calc(50% - 10px);
+        width: 33px;
+        height: 25px;
+        cursor: pointer;
+        margin-bottom: 40px;
+    }
+
+    &-container {
+        &_top {
+            display: flex;
+            justify-content: space-between;
+            max-width: 715px;
+            margin: 0 auto;
+            margin-bottom: 14px;
+            padding-left: 10px;
+            padding-right: 10px;
+
+            &-left {
+                display: flex;
+                align-items: self-end;
+
+                &_image {
+                    width: 99px;
+                    height: 99px;
+                    margin-right: 9px;
+                    ;
+                }
+
+                &-information {
+
+                    &_name,
+                    &_alias,
+                    &_number,
+                    &_email {
+                        font-weight: 100;
+                        margin: 0px;
+                    }
+
+                    &_name {
+                        font-size: 32px;
+                    }
+
+                    &_alias {
+                        margin-bottom: 11px;
+                    }
+
+                    &_alias,
+                    &_number,
+                    &_email {
+                        font-size: 20px;
+                    }
+                }
+            }
+
+            &-right {
+                align-self: self-end;
+
+                &_age {
+                    text-align: end;
+                }
+
+                &_age,
+                &_nationaliti {
+                    font-weight: 100;
+                    font-size: 20px;
+                    margin: 0px;
+                }
+            }
+        }
+
+        &_bottom {
+            max-width: 761px;
+            margin: 0 auto;
+            border-top: 1px solid white;
+
+            &-textContainer {
+                overflow: scroll;
+                overflow-x: hidden;
+                margin-bottom: 7px;
+
+                &::-webkit-scrollbar {
+                    background-color: #0E1012;
+                    margin-left: 14px;
+                }
+
+                &::-webkit-scrollbar-thumb {
+                    background-color: #EA6A6A;
+                }
+
+                &-description {
+                    max-width: 715px;
+                    margin: 0 auto;
+                    margin-top: 8px;
+                    max-height: 514px;
+                    margin-bottom: 7px;
+                    font-size: 22px;
+                    margin-left: 25px;
+                }
+
+            }
+
+            &-arrow {
+                position: relative;
+                left: 50%;
+                transform: translateX(-50%);
+
+                @keyframes show-hide-arrow {
+                    0% {
+                        opacity: 0;
+                    }
+
+                    50% {
+                        opacity: 1;
+                    }
+
+                    100% {
+                        opacity: 0;
+                    }
+                }
+
+
+                &-animate-arrow {
+                    animation: show-hide-arrow 1.5s linear infinite;
+                }
+            }
+
+        }
+    }
+
+    &_bottomBorder {
+        max-width: 479px;
+        margin-top: 11px;
+    }
+
+    &_achievement {
+        align-items: center;
+        position: absolute;
+        right: 0px;
+        top: 195.7vh;
+        width: 267px;
+        height: 100px;
+        background: #2D2C32;
+        display: flex;
+
+        &-locked {
+            display: none;
+            position: absolute;
+            transform: translateY(-100px);
+        }
+
+        &-image {
+            width: 70px;
+            height: 70px;
+            margin-right: 5px;
+            margin-left: 14px;
+        }
+
+        &-information {
+
+            &_top,
+            &_middle,
+            &_bottom {
+                font-weight: 100;
+                margin: 0px;
+            }
+
+            &_top {
+                font-size: 20px;
+                color: #CDCED0;
+            }
+
+            &_middle {
+                font-size: 16px;
+                color: #939599;
+            }
+
+            &_bottom {
+                font-size: 14px;
+                color: #706F6F;
+            }
+        }
+    }
+
+    @media (max-width: 832px) {
+        &-container {
+            &_top {
+                &-left {
+                    &-information {
+
+                        &_name {
+                            font-size: 24px;
+                        }
+
+                        &_alias {
+                            margin-bottom: 16px;
+                        }
+
+                        &_alias,
+                        &_number,
+                        &_email {
+                            font-size: 16px;
+                        }
+                    }
+                }
+
+                &-right {
+
+                    &_age,
+                    &_nationaliti {
+                        font-size: 16px;
+                    }
+                }
+            }
+
+            &_bottom {
+                &-textContainer {
+                    &-description {
+                        font-size: 16px;
+                    }
+                }
+            }
+
+        }
+    }
+
+    @media (max-width: 500px) {
+        &-container {
+            &_top {
+
+                justify-content: center;
+
+                &-right {
+
+                    &_age,
+                    &_nationaliti {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: 400px) {
+        @media (max-height: 672px) {
+            &-title {
+                margin-top: 90px;
+            }
+        }
     }
 }
