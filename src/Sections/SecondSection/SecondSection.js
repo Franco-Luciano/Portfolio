@@ -4,7 +4,6 @@ import data from "../../information.json"
 import DownArrow from "../../images/DownArrow.gif"
 import ProfilePicture from "../../images/ProfilePicture.png"
 import TextArrow from "../../images/TextContinue.png"
-import Achivement from "../../images/AchivementBio.png"
 
 function SecondSection({ lenguage }) {
     const description = data.Franco.description

@@ -153,54 +153,6 @@
         margin-top: 11px;
     }
 
-    &_achievement {
-        align-items: center;
-        position: absolute;
-        right: 0px;
-        top: 195.7vh;
-        width: 267px;
-        height: 100px;
-        background: #2D2C32;
-        display: flex;
-
-        &-locked {
-            display: none;
-            position: absolute;
-            transform: translateY(-100px);
-        }
-
-        &-image {
-            width: 70px;
-            height: 70px;
-            margin-right: 5px;
-            margin-left: 14px;
-        }
-
-        &-information {
-
-            &_top,
-            &_middle,
-            &_bottom {
-                font-weight: 100;
-                margin: 0px;
-            }
-
-            &_top {
-                font-size: 20px;
-                color: #CDCED0;
-            }
-
-            &_middle {
-                font-size: 16px;
-                color: #939599;
-            }
-
-            &_bottom {
-                font-size: 14px;
-                color: #706F6F;
-            }
-        }
-    }
 
     @media (max-width: 832px) {
         &-container {
