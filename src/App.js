@@ -3,6 +3,7 @@ import React from 'react';
 import FirstSection from './Sections/FirstSection/FirstSection';
 import SecondSection from './Sections/SecondSection/SecondSection';
 import ThirdSection from './Sections/ThirdSection/ThirdSection';
+import FourthSection from './Sections/FourthSection/FourthSection';
 function App() {
     const [lenguage, setLenguage] = React.useState(false)
     return (
@@ -13,8 +14,9 @@ function App() {
                 <div onClick={() => setLenguage(prevValue => true)} className={`App-topContainer-right${lenguage ? "_leftContainer" : "_rightContainer"}`}><h4>eng</h4></div>
             </div>
         </div><FirstSection lenguage={lenguage} />
-            <SecondSection />
-            <ThirdSection />
+            <SecondSection lenguage={lenguage} />
+            <ThirdSection lenguage={lenguage} />
+            <FourthSection lenguage={lenguage} />
         </>
     );
 }

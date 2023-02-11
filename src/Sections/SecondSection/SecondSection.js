@@ -20,14 +20,14 @@ function SecondSection({ lenguage }) {
 
     return (
         <section className="SecondSection">
-            <h2 className="SecondSection-title">Sobre mí</h2>
+            <h2 className="SecondSection-title">{lenguage ? "About me" : "Sobre mí"}</h2>
             <div className="SecondSection-container">
                 <div className="SecondSection-container_top">
                     <div className="SecondSection-container_top-left">
                         <img src={ProfilePicture} className="SecondSection-container_top-left_image"></img>
                         <div className="SecondSection-container_top-left-information">
                             <h2 className="SecondSection-container_top-left-information_name" >Franco Carlomagno</h2>
-                            <h4 className="SecondSection-container_top-left-information_alias" >“El desarrollador”</h4>
+                            <h4 className="SecondSection-container_top-left-information_alias" >{lenguage ? "“The developer”" : "“El desarrollador”"}</h4>
                             <h3 className="SecondSection-container_top-left-information_number" >+34 615 036 581</h3>
                             <h3 className="SecondSection-container_top-left-information_email" >francolucianocarlomagno@gmail.com</h3>
                         </div>

@@ -7,7 +7,7 @@ function ThirdSection({ lenguage }) {
     const information = data.Franco.tools.lenguages
     return (
         <section className="ThirdSection">
-            <h2 className="ThirdSection-title">HERRAMIENTAS<br /> Y EMPRESAS</h2>
+            {lenguage ? <h2 className="ThirdSection-title">TOOLS<br /> AND COMPANIES</h2> : <h2 className="ThirdSection-title">HERRAMIENTAS<br /> Y EMPRESAS</h2>}
             <div className="ThirdSection-middleContainer">
                 {information.map((language, index) => (language[index + 1].type == "lenguage" ? <ToolSquare imageHeight={language[index + 1].image.height} imageWidth={language[index + 1].image.width} fontSize={language[index + 1].fontSize} image={language[index + 1].image.path} type={language[index + 1].type} color={language[index + 1].color} lenguage={language[index + 1].name} /> : ""))}
                 <div className="ThirdSection-middleDown"></div>
