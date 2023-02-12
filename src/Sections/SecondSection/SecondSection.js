@@ -6,7 +6,8 @@ import ProfilePicture from "../../images/ProfilePicture.png"
 import TextArrow from "../../images/TextContinue.png"
 
 function SecondSection({ lenguage }) {
-    const description = data.Franco.description
+    const descriptionEnglish = data.Franco.descriptionEnglish
+    const descriptionSpanish = data.Franco.descriptionSpanish
     const [isAtBottom, setIsAtBottom] = useState(false);
 
     const handleScroll = e => {
@@ -39,7 +40,7 @@ function SecondSection({ lenguage }) {
                 </div>
                 <div className="SecondSection-container_bottom">
                     <div onScroll={handleScroll} className="SecondSection-container_bottom-textContainer">
-                        <p className="SecondSection-container_bottom-textContainer-description">{description}</p>
+                        <p className="SecondSection-container_bottom-textContainer-description" style={{ whiteSpace: 'pre-wrap' }}>{lenguage ? descriptionEnglish : descriptionSpanish}</p>
                     </div>
                     {!isAtBottom ? <img src={TextArrow} className="SecondSection-container_bottom-arrow SecondSection-container_bottom-arrow-animate-arrow" /> : <span style={{
                         width: "15px",

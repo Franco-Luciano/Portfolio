@@ -17,6 +17,7 @@
 
     &_formContainer {
         margin: 0 auto;
+        text-align: center;
 
         &-top,
         &-middle,
@@ -79,6 +80,7 @@
         margin-bottom: 37px;
         cursor: pointer;
         margin-top: 52px;
+        text-transform: uppercase;
 
         &:hover {
             background: #ffffff;
@@ -86,6 +88,19 @@
             border: 2px solid #EA6A6A;
         }
 
+    }
+
+    &_send {
+        background-color: #EA6A6A;
+        border: 1px solid #FFFFFF;
+        padding-top: 6.5px;
+        display: block;
+        padding-bottom: 6.5px;
+        padding-left: 48.5px;
+        padding-right: 48.5px;
+        margin: 0 auto;
+        margin-top: 52px;
+        margin-bottom: 37px;
     }
 
     @media (max-width: 780px) {
