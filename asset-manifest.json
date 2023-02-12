@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.b7182318.css",
-    "main.js": "/static/js/main.8d0a771b.js",
-    "static/media/HollowKnight.gif": "/static/media/HollowKnight.19f423f9028a9ad29a4b.gif",
-    "static/media/ProfilePicture.png": "/static/media/ProfilePicture.30d07e407823ffb67d8f.png",
-    "static/media/DownArrow.gif": "/static/media/DownArrow.8830b6f3502b87cb214d.gif",
-    "index.html": "/index.html",
-    "main.b7182318.css.map": "/static/css/main.b7182318.css.map",
-    "main.8d0a771b.js.map": "/static/js/main.8d0a771b.js.map"
+    "main.css": "//Portfolio/static/css/main.4f48d4f8.css",
+    "main.js": "//Portfolio/static/js/main.9ddfef3f.js",
+    "static/media/HollowKnight.gif": "//Portfolio/static/media/HollowKnight.19f423f9028a9ad29a4b.gif",
+    "static/media/ProfilePicture.png": "//Portfolio/static/media/ProfilePicture.30d07e407823ffb67d8f.png",
+    "static/media/DownArrow.gif": "//Portfolio/static/media/DownArrow.8830b6f3502b87cb214d.gif",
+    "index.html": "//Portfolio/index.html",
+    "main.4f48d4f8.css.map": "//Portfolio/static/css/main.4f48d4f8.css.map",
+    "main.9ddfef3f.js.map": "//Portfolio/static/js/main.9ddfef3f.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7182318.css",
-    "static/js/main.8d0a771b.js"
+    "static/css/main.4f48d4f8.css",
+    "static/js/main.9ddfef3f.js"
   ]
 }
